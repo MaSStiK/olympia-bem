@@ -1,0 +1,14 @@
+.header-content__navigation-button {
+    border: #FFFFFF00 solid 1px;
+    border-radius: 26px;
+    padding: 3px 12px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    transition: .3s;
+    position: relative;
+}
+
+.header-content__navigation-button:hover {
+    border: #FFFFFF80 solid 1px;
+}

@@ -1,0 +1,37 @@
+.slider-content__button_white {
+    background-color: none;
+    border: 2px solid #ED4432;
+    border-radius: 41px;
+    width: 161px;
+    height: 46px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: .3s;
+}
+
+.slider-content__button_white:hover {
+    background-color: #ED4432;
+}
+
+.slider-content__button_white .slider-content__button-text {
+    color: #103153;
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto 0 auto 11px;
+    transition: .3s;
+}
+
+.slider-content__button_white:hover .slider-content__button-text {
+    color: #FFFFFF;
+}
+
+.slider-content__button_white img {
+    height: 12px;
+    margin: auto 10px auto 0;
+    transition: .3s;
+}
+
+.slider-content__button_white:hover img {
+    filter: brightness(0) invert(100%);
+}

@@ -1,0 +1,12 @@
+.slider-content__button {
+    height: 13px;
+    width: 13px;
+    margin-right: 13px;
+}
+
+.slider-content__button .active {
+    color: #103153;
+}
+.slider-content__button .inactive {
+    color: #585858;
+}

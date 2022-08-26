@@ -1,0 +1,38 @@
+.announcement-content__ads-button {
+    border: 2px solid #85ABD3;
+    border-radius: 41px;
+    width: 204px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    transition: .3s;
+}
+
+.announcement-content__ads-button:hover {
+    border: 2px solid #ED4432;
+    background-color: #ED4432;
+}
+
+.announcement-content__ads-button-text {
+    color: #103153 !important;
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto 0 auto 8px;
+    letter-spacing: 0.1px;
+    transition: .3s;
+}
+
+.announcement-content__ads-button:hover .announcement-content__ads-button-text {
+    color: #FFFFFF !important;
+}
+
+.announcement-content__ads-button img {
+    height: 10px;
+    margin: auto 9px auto 0;
+    transition: .3s;
+}
+
+.announcement-content__ads-button:hover img {
+    filter: brightness(0) invert(100%);
+}

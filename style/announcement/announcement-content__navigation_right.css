@@ -1,0 +1,26 @@
+.announcement-content__navigation_right {
+    background-color: #FFFFFF;
+    height: 38px;
+    width: 38px;
+    border: #85ABD3 solid 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.announcement-content__navigation_right:hover {
+    background-color: #ED4432;
+    border: #ED4432 solid 1px;
+}
+
+.announcement-content__navigation_right img {
+    height: 12px;
+}
+
+.announcement-content__navigation_right:hover img {
+    filter: brightness(0) invert(100%);
+}
